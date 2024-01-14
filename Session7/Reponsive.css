@@ -1,0 +1,37 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu nav ul{
+    border: 1px solid #16a085;
+    background-color: #16a085;
+    margin-top: 20px;
+}
+.menu nav ul li{
+    text-decoration: none;
+    margin: 20px 15px;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+}
+
+.icons{
+    display: none;
+}
+
+
+@media screen and (max-width:480px){
+    .icons{
+        display: block;
+    } 
+    .menu nav ul li{
+        display: none;
+    } 
+   .icons:hover{
+        background-color: #2ecc71;
+        display: block;
+   } 
+}

@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.move{
+    width: 100px;
+    height: 50px;
+    background-color: #c56cf0;
+    position: relative;
+    margin: 50px;
+    animation-name: animationMove;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-direction: alternate; /*để đảo chuyển động chạy ngược lại từ 100%: 0->100%, 100%->0...*/
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.square2{
+    background-color: #05c46b;
+    animation-delay: -.9s;
+}
+
+.square3{
+    background-color: #fbc531;
+    animation-delay: -.2s;
+}
+
+.square4{
+    background-color: #fc5c65;
+    animation-delay: -.6s;
+}
+@keyframes animationMove{
+   
+   0%{ height: 10px }
+  10% { height: 15px }
+  15% { height: 20px }
+  20% { height: 25px }
+  25% { height: 30px }
+  30% { height: 35px }
+  35% { height: 40px }
+  40% { height: 45px }
+  45% { height: 50px }
+  50% { height: 55px }
+  55% { height: 60px }
+  60% { height: 65px }
+  65% { height: 70px }
+  70% { height: 75px }
+  75% { height: 80px }
+  80% { height: 85px }
+  85% { height: 90px }
+  90% { height: 95px }
+  95% { height: 97px }
+  100% { height: 100px }
+} 
+
+

@@ -1,0 +1,27 @@
+
+/*Bộ chọn tổng quát  */
+ *{
+    font-family: 'Times New Roman', Times, serif;
+    color: aqua;
+ }
+
+ /* Bộ chọn ID: ưu tiên đầu tiên */
+ #format{
+    color: red;
+ }
+
+/* Bộ chọn Class:ưu tiên thứ 2 và có thể ghi đè css trong html */
+ .formatColor{
+    color: aquamarine;
+ }
+
+ .formatColor1{
+    color: chartreuse;
+ }
+ /*Dùng thẻ html làm bộ chọn: ưu tiên cuối cùng*/
+ h1{
+    color: aqua;
+}
+h2{
+    color: rgb(0, 128, 83);
+}

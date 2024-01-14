@@ -1,0 +1,39 @@
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    /* transition phải có tương tác với hover */
+    transition-property: ackground-color, width, height;
+    transition-duration: 2s;
+    /* transition-delay: 3s;
+    transition-timing-function: ease-in; độ mượt */
+}
+
+.box1:hover{
+    background-color: chartreuse;
+    width: 250px;
+    height: 200px;
+}
+
+/* animation không cần dùng hover mà nó tự động chạy trực tiếp luôn */
+.box2{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: blueviolet;
+    animation-name: animationColor;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    /* animation-timing-function: cubic-bezier(0.175,.8); */
+    animation-timing-function: linear;
+    animation-iteration-count: 4; /*số lần lặp, infinite: lặp mãi mãi*/
+
+}
+
+@keyframes animationColor{
+    to{
+        background-color:#e84118;
+        position: absolute;
+        bottom: 200px;
+    }
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo CSS</title>
+    <link rel="stylesheet" href="demoCss.css">
+</head>
+<body>
+    <style>
+        /* Cấu trúc của css */
+        h1{
+            color: brown;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        /* khi rê chuột vào */
+        a:hover{
+            color: red;
+        }
+
+        /* khi click vào rồi */
+        a:visited{ 
+            color: rgb(214, 92, 214);
+        }
+    </style>
+
+    <h1 style="color: blue;">Nội dung h1</h1>
+    <h2 id="format" class="formatColor">Nội dung h2</h2>
+    <!-- ghi đè formatColor1 lên formatColor -->
+    <h2 class="formatColor formatColor1">Nội dung 2</h2> 
+
+    <a href="https://google.com">Link Google</a>
+</body>
+</html> 

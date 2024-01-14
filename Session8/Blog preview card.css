@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: #f9ca24;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.desktop{
+    background-color: white;
+    margin: 20px auto;
+    padding: 27px;
+    max-width: 400px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 10px 0;
+}
+.card{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.learning{
+    background-color: #f9ca24;
+    border-radius: 5px;
+    padding: 7px 10px;
+    margin-bottom: 10px;
+    font-weight: bold; 
+    width: 100px;
+    text-align: center;
+}
+
+
+.content .date{
+    margin-bottom: 10px;
+    font-size: 16px;
+    color:#353b48 ;
+}
+
+.content h1{
+    font-size: 1.8rem;
+    margin: 10px 0;
+}
+
+.main{
+    color: #95a5a6;
+    line-height: 24px;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.greg{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+.greg .image-man{
+    width: 30;
+    height: 30;
+    margin-right: 12px;
+}
+.greg h5{
+    opacity: 1;
+    font-size: 16px;
+}
+
+@media screen and (max-width:480px){
+    .card{
+        font-size: 20px;
+    }
+    /* .desktop{
+        padding: 20px;
+    }     */
+}
+
