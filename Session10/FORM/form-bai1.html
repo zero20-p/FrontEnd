@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form-bai1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="images/download.jfif" alt="" >
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+            
+            <div class="search-left">
+                <input type="text" placeholder="Search">
+            </div>
+            <p class="search">Search</p>
+            
+        </div>
+        
+        <div class="form">
+            <div class="title">
+                <h3>REGISTER INFOMATION</h3>
+            </div>
+        
+            <form action="#">
+                <div class="name">
+                    <div class="firstname">
+                        <label for="txtFirstName">FirstName</label>
+                    
+                        <input type="text" id="txtFirstName" placeholder="FirstName" required>
+                    </div>
+                    <div class="lastname">
+                        <label for="txtLastName">LastName</label>
+                    <input type="text" id="txtLastName" placeholder="LastName" required>
+                </div>
+                </div>
+
+                <label for="txtEmail">Email</label>
+                <input type="email" id="txtEmail" placeholder="Email" required>       
+
+                <label for="pass">Password</label>
+                <input type="password" id="pass" placeholder="Password" required>            
+
+                <label for="ConfirmPass">Confirm Password</label>
+                <input type="password" id="ResetPass" required>
+                <div class="accept">
+                   <button></button>
+                    <label for="squaredcheck">I Accept the <span> Temps of Use</span> & <span>Privacy Policy</span></label>
+                </div>
+                <input type="submit" value="Resister Now">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

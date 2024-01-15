@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    border: 1px solid #edf3f6;
+    background-color: #edf3f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0 5px 10px;
+    margin: 20px auto;
+    width: 100%;
+}
+
+img{
+    width: 300px;
+    margin-right: 30px;
+}
+.header ul {
+    display: flex;
+}
+
+.header ul li{
+    list-style: none;
+    padding: 10px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.header ul li a{
+    text-decoration: none;
+    background-color: #27ae60;
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+    font-size: 24px;
+}
+.search-left input{
+    padding:10px 0;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.search{
+    border: 1px solid #27ae60 ;
+    padding: 8px;
+    margin-left: 3px;
+    border-radius: 5px;
+    color: #27ae60;
+}
+.form {
+    width: 700px;
+    padding: 20px 12px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.title {
+    color: blue;
+    margin: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.form .name{
+    display: flex;
+}
+
+.form input {
+    display: block;
+    width: 100%;
+    padding: 8px 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(191, 188, 188);
+    outline: none;
+}
+
+.firstname, 
+.lastname {
+    margin-top: 5px;
+    width: 50%;
+}
+.firstname {
+    padding-right: 5px;
+}
+
+.accept {
+display: flex;
+margin: auto;
+}
+
+button{
+    width: 15px;
+    border-radius: 3px;
+    border: 1px solid rgb(191, 188, 188);
+    margin-right: 5px;
+}
+
+.accept span{
+    text-decoration: none;
+    color:#0dee41 ;
+}
+
+/*tìm đến input cụ thể luôn*/
+input[type="submit"] {
+    background-color: #27ae60;
+    color: white;
+    cursor:pointer; 
+    padding: 9px 5px;
+    transition: 0.5s;
+}
+
+input[type="submit"]:hover {
+    opacity: 0.7;
+}
+
+input::placeholder{
+    font-size: 12px;
+    color: grey;
+    padding: 5px;
+}

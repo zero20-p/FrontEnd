@@ -44,7 +44,7 @@
 
 @media (min-width: 481px) and (max-width:768px){
     .container{
-        grid-template-columns: repeat(4, .01fr);
+        grid-template-columns: repeat(4, 1fr);
         grid-template-rows: .01fr;
     }
     .item2{
