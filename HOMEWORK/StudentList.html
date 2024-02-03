@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách sinh viên</title>
+</head>
+
+<body>
+    <script>
+        var StudentList = new Array(4)
+
+        StudentList[0] = new Array('001', 'Nguyễn Văn A', 'Đà Nẵng', 'dung@gmail.com')
+        StudentList[1] = new Array('002', 'Nguyễn Văn B', 'Quảng Nam', 'bgyub@gmail.com')
+        StudentList[2] = new Array('003', 'Nguyễn Văn C', 'Bình Định', 'vanc@gmail.com')
+        StudentList[3] = new Array('004', 'Nguyễn Văn D', 'Tam Kỳ', 'vand@gmail.com')
+
+        document.write('<table  style="border:1px solid #ddd; width:50%";>')
+        document.write('<tr> <th style="border: 1px solid #ddd; padding: 8px; background-color:#747d8c ;" >ID</th><th style="border: 1px solid #ddd; padding: 8px; background-color: #747d8c">Name</th><th style="border: 1px solid #ddd; padding: 8px; background-color: #747d8c;">Address</th> <th style="border: 1px solid #ddd; padding: 8px; background-color: #747d8c;">Email</th></tr>')
+        for (var i = 0; i < StudentList.length; i++) {
+            document.write('<tr>');
+            for (var j = 0; j < StudentList.length; j++) {
+                document.write('<td style="border: 1px solid #ddd; padding: 8px; background-color: #f2f2f2;">' + StudentList[i][j] + '</td>')
+            }
+            document.write('<tr>')
+        }
+        document.write('</table>')
+    </script>
+</body>
+
+</html>
